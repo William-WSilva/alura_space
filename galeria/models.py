@@ -8,7 +8,7 @@ class Fotografia(models.Model):
         ('ESTRELA', 'Estrela'),
         ('GALAXIA', 'Galaxia'),
         ('PLANETA', 'Planeta'),
-        ('CORPO_CELESTE', 'Corpo_Celeste')
+        ('CORPO CELESTE', 'Corpo Celeste')
     ]
 
     nome = models.CharField(max_length=100, null=False, blank=False)
